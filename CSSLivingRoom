@@ -1,0 +1,68 @@
+body{
+    font-size: small;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    line-height: 1.6em;
+}
+#promise {
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-style:italic;
+    color:#444;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 10px;
+    background-color: #a7cece;
+    padding: 25px 25px 25px 80px ;
+    margin: 30px 250px 30px 30px;
+    line-height: 1.9em;
+    background-image: url(img/background.gif);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    border
+}
+#elixirs {
+    line-height: 1;
+    color:aliceblue;
+    background-image: url(img/bg11.gif);
+    background-repeat: no-repeat;
+    background-color: #3d2b6b;
+    padding: 80px 0px 20px 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    border: thin solid #007e7e;
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+    float: right;
+}
+#elixirs h2 {
+    color:black;
+}
+#elixirs h3 {
+    color: #d12c47;
+}
+#footer {
+    font-size: 50%;
+    text-align:center;
+    line-height: normal;
+    margin-top: 30px;
+}
+#tracks {
+    font-style: italic;
+}
+.cd {
+    font-weight: bold;
+}
+.artist {
+    font-style: italic;
+}
+#elixirs a:link {
+    color: #007e7e;
+}
+#elixirs a:visited {
+    color: #333333;
+}
+#elixirs a:hover {
+    background: #f88396;
+    color: #0d5353;
+}
