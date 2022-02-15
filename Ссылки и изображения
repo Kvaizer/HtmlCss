@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Карта путешествий</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="image-map">
+      <img class="pic-1" src="img/4.jpg" alt="">
+      <img class="pic-2" src="img/2.svg" alt="">
+      <img class="pic-3" src="img/1.png" alt="">
+      <img class="pic-4" src="img/8.png" alt="">
+      <img class="pic-5" src="img/3.png" alt="">
+      <img class="pic-6" src="img/7.png" alt="">
+      <img class="pic-7" src="img/5.jpg" alt="">
+      <img class="pic-8" src="img/6.jpg" alt="">
+    </div>
+  </body>
+</html>
+
+
+body {
+  width: 550px;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.image-map {
+  display: grid;
+  width: 500px;
+  height: 375px;
+
+  grid-template-rows: 125px 125px 125px;
+  grid-template-columns: 125px 125px 125px 125px;
+
+  border: 2px dashed #cccccc;
+}
+
+.pic-1 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+}
+
+.pic-2 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.pic-3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.pic-4 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.pic-5 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.pic-6 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.pic-7 {
+  grid-column: 4 / 5;
+  grid-row: 1 / -1;
+}
+
+.pic-8 {
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+}
+
